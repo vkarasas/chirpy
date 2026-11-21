@@ -1,0 +1,30 @@
+{
+  "name": "chirpy",
+  "version": "1.0.0",
+  "description": "Chirpy is educational typescript server project from boot.dev",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node dist/index.js",
+    "dev": "npx tsc && node dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vkarasas/chirpy.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/vkarasas/chirpy/issues"
+  },
+  "homepage": "https://github.com/vkarasas/chirpy#readme",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^26.6.6",
+    "typescript": "^7.0.2"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}
